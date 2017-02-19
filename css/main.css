@@ -1,0 +1,70 @@
+html {
+    background: #383838;
+}
+
+body {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #9d9d9d;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: #aaaaaa;
+}
+
+/*div.speaker, div.wave {
+    width: 700px;
+    height: 350px;    
+    background-size: cover;
+    position: fixed;
+    padding: 0;
+    filter: blur(1px);
+    opacity: 0.8;
+}
+
+div.speaker {
+    background-image: url(../img/speakers.png);
+    left: -358px;
+}
+
+div.wave {
+    background-image: url(../img/Soundwave.png);
+    right: -1180px;
+}*/
+.wrap {
+    width: 100%;
+}
+.wrap div {
+    display: inline-block;
+}
+.main {
+    width: 70%;
+    background-color: bisque;
+    float:left;
+}
+.main-right {
+    width: 30%;
+    background-color: cadetblue;
+}
