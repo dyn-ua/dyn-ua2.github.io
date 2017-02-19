@@ -1,5 +1,6 @@
 html {
     background: #fff;
+    width: 100%
 }
 
 body {
@@ -14,4 +15,6 @@ header {
 
 table {
     border: 1px solid black;
+    
 }
+
